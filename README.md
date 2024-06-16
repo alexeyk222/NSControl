@@ -8,7 +8,9 @@ Jetson Nano with Ubuntu 20.04 OS image
 <https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image>
 
 *dlib_eyes_alarm.py - detection of blinking and eye rotation
+
 *myapp.sh - bash script for autorun
+
 *myapp.service - initial loading /etc/systemd/system/myapp.service
 
 ```bash
