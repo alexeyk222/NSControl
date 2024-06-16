@@ -1,0 +1,11 @@
+[Unit]
+Description=script
+After=network.target some-other-service.target
+
+[Service]
+Type=simple
+ExecStart=/home/jetson/eyes/myapp.sh
+User=jetson
+
+[Install]
+WantedBy=multi-user.target
